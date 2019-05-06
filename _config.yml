@@ -24,10 +24,10 @@ navbar:
     # Navigation bar menu links
     menu:
         主页: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Navigation bar links to be shown on the right
     links:
         Download on GitHub:
@@ -72,24 +72,24 @@ donate:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: ''
+        qrcode: 'https://fangliang.pro/qrcode/alipayqrcode.jpg'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: ''
+        qrcode: 'https://fangliang.pro/qrcode/wechatqrcode.jpg'
     -
         # Donation entry name
-        type: paypal
+        # type: paypal
         # Paypal business ID or email address
-        business: ''
+        # business: ''
         # Currency code
-        currency_code: USD
+        # currency_code: USD
     -
         # Donation entry name
-        type: patreon
+        # type: patreon
         # URL to the Patreon page
-        url: ''
+        # url: ''
 # Share plugin settings
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Share-Plugins
 share:
@@ -117,11 +117,11 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Author name to be shown in the profile widget
-        author: Your name
+        author: FLiang
         # Title of the author to be shown in the profile widget
-        author_title: Your title
+        author_title: Web 前端工程师
         # Author's current location to be shown in the profile widget
-        location: Your location
+        location: Wu Han
         # Path or URL to the avatar to be shown in the profile widget
         avatar: 
         # Email address for the Gravatar to be shown in the profile widget
@@ -129,24 +129,24 @@ widgets:
         # Whether to show avatar image rounded or square
         avatar_rounded: false
         # Path or URL for the follow button
-        follow_link: 'http://github.com/ppoffice'
+        follow_link: 'https://github.com/maxfangliang'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'http://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'http://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'http://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'http://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+                url: 'https://github.com/maxfangliang'
+            # Facebook:
+                # icon: fab fa-facebook
+                # url: 'http://facebook.com'
+            # Twitter:
+                # icon: fab fa-twitter
+                # url: 'http://twitter.com'
+            # Dribbble:
+                # icon: fab fa-dribbble
+                # url: 'http://dribbble.com'
+            # RSS:
+                # icon: fas fa-rss
+                # url: /
     -
         # Widget name
         type: toc
@@ -158,9 +158,9 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Links to be shown in the links widget
-        links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+        # links:
+            # Hexo: 'https://hexo.io'
+            # PPOffice: 'https://github.com/ppoffice'
     -
         # Widget name
         type: category
